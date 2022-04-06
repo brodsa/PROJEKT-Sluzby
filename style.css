@@ -1,0 +1,47 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body {
+	margin: 0;
+}
+
+.title p,
+.title h1{
+    text-align:center;
+}
+
+.title h1{
+    padding: 0;
+    margin:0;
+    margin-top: 40px;
+}
+
+.title p{
+    padding:40px 20px;
+    margin: 0;
+}
+
+.title-img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.button{
+    display: block;
+    background-color:gray;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 0;
+}
+
+
+
+/* DOTAZY
+Centrovani - obrazek, text, nadpis
+- nejde mit pouzivat margin: 0 auto na obrazek ci nadpis;
+- funguje na text
+
+*/
