@@ -188,7 +188,7 @@ h2{
 
 
 @media screen and (min-width:1100px) {
-    .body{
+    body{
         max-width: 1040px;
 
     }
@@ -262,14 +262,15 @@ h2{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        column-gap: 60px;
     }
 
     .servis-text{
-        flex: 0 0 calc((100% - 60px)/2);
+        flex: 0 0 430px;
     }
 
     .boxes{
-        flex: 0 0 calc((100% - 60px)/2);
+        flex: 0 0 550px;
         padding:0;
     }
 
@@ -279,7 +280,7 @@ h2{
 
     .box p{
         padding: 0;
-        margin: 20px 15px 40px 15px;
+        margin: 20px auto;
     }
 
 }
